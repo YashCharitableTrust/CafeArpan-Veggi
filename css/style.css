@@ -447,12 +447,17 @@ a:hover{
 .main_contact_content{
 	
 }
+.main_contact_content h2{
+	color:#fff;
+}
 .single_contact{
     margin-bottom: 80px;
 	margin-left:10px;
+	color:#fff;
 }
 .single_contact h5{
 	margin-bottom:10px;
+	color:#fff;
 }
 .single_contact span{
 	display:block;
