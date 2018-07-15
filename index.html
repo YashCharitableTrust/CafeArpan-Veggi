@@ -311,36 +311,154 @@
 
                 <div class="menus_top_menu text-center wow slideInDown" data-wow-duration="1.5s">
                     <ul>
-                        <li class="active"><a href="#starter">Bread station</a></li>
-                        <li><a href="">Side</a></li>
-                        <li><a href="">Hot beverages</a></li>
-                        <li><a href="">Cold drinks</a></li>
+                        <li class="active"><a href="" data-menuId="breadStationMenu">Breads</a></li>
+                        <li><a href="" data-menuId="sidesMenu">Sides</a></li>
+                        <li><a href="" data-menuId="hotBeveragesMenu">Hot</a></li>
+                        <li><a href="" data-menuId="coldBeveragesMenu">Cold</a></li>
+                        <li><a href="" data-menuId="specialsMenu">Specials</a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="single_menus wow slideInLeft" data-wow-duration="1.5s">
-                        <ul>
-                            <li> Videshi Vada Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
-                                <span> Burger with a crunchy veggie patty and soft bun.</span></li>
-                            <li> Mushroom and Cheese Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
-                                <span> Soft pav filled with mushroom and cheese. Served toasted.</span></li>
-                            <li> Airport Wala Special Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
-                                <span> Our special chilli cheese toast sandwich, minus the crazy airport prices.</span></li>
-                        </ul>
+                <!--Bread Station-->
+                <div id="breadStationMenu" class="menuDivs">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">
+                            <ul>
+                                <li> Videshi Vada Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
+                                    <span> Burger with a crunchy veggie patty and soft bun.</span></li>
+                                <li> Mushroom and Cheese Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
+                                    <span> Soft pav filled with mushroom and cheese. Served toasted.</span></li>
+                                <li> Airport Wala Special Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
+                                    <span> Our special chilli cheese toast sandwich, minus the crazy airport prices.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_menus wow slideInRight" data-wow-duration="0.5s">
+                            <ul>
+                                <li> Spinach Corn & Cheese Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
+                                    <span> Soft pav filled with spinach, corn and cheese. Served toasted.</span></li>
+                                <li> Raste Wala Sada Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
+                                    <span> Mumbai special sandwich, just as the sandwichwala prepares it!</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="single_menus wow slideInRight" data-wow-duration="1.5s">
-                        <ul>
-                            <li> Spinach Corn & Cheese Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
-                                <span> Soft pav filled with spinach, corn and cheese. Served toasted.</span></li>
-                            <li> Raste Wala Sada Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
-                                <span> Mumbai special sandwich, just as the sandwichwala prepares it!</span></li>
-                        </ul>
+                <!--Sides-->
+                <div id="sidesMenu" class="menuDivs" style="display:none;">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">
+                            <ul>
+                                <li> Exotic Kachumber Salad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
+                                    <span> Kachumber salad's fancier version (with lettuce, bell peppers et al).</span>
+                                </li>
+                                <li> Original Fries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
+                                    <span> Classic French fries.</span></li>
+                                <li> Garlic Bread with Cheese&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                    <span> Because its easy to prepare and so tasty!</span></li>
+                                <li> Cheesy Corn Balls&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
+                                    <span> Cheesy American corn fritters.</span></li>
+                                <li> Cheesy Nachos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;140
+                                    <span> Fresh, crispy nachos with our home-made cheese sauce.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_menus wow slideInRight" data-wow-duration="0.5s">
+                            <ul>
+                                <li> Special Arpan Salad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                    <span> Fresh veggies tossed in our special Arpan dressing.</span></li>
+                                <li> Masala Fries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
+                                    <span> Classic French fries with some desi spice.</span></li>
+                                <li> Falafel Tikkies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
+                                    <span> Traditional falafel nuggets served with a delicious dip.</span></li>
+                                <li> Jalapeno Poppers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
+                                    <span> Jalapeno + cheese + fried = happiness!</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+
+                <!--Hot Beverages-->
+                <div id="hotBeveragesMenu" class="menuDivs" style="display:none;">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">
+                            <ul>
+                                <li> Garam Chai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50
+                                    <span> Chai cutting.</span></li>
+                                <li> Hot Chocolate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
+                                    <span> Garma garam chocolate!</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_menus wow slideInRight" data-wow-duration="0.5s">
+                            <ul>
+                                <li> Filter Coffee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50
+                                    <span> South Indian coffee.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Cold Beverages-->
+                <div id="coldBeveragesMenu" class="menuDivs" style="display:none;">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">
+                            <ul>
+                                <li> Nimbu Pani&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50
+                                    <span> Fresh lime water (sweet or salty or both or none... however you want it!).</span>
+                                </li>
+                                <li> Lemon Iced Chai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
+                                    <span> Refreshing iced tea.</span></li>
+                                <li> Watermelon Juice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
+                                    <span> Fresh watermelon juice - no sugar, no ice.</span></li>
+                                <li> Banana Milkshake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                    <span> Fresh banana milkshake</span></li>
+                                <li> Strawberry Milkshake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;130
+                                    <span> Delicious strawberry milkshake.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_menus wow slideInRight" data-wow-duration="0.5s">
+                            <ul>
+                                <li> Nimbu Soda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
+                                    <span> Fresh lime soda (sweet or salty or both or none... however you want it!).</span>
+                                </li>
+                                <li> Peach Iced Chai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
+                                    <span> Refreshing iced tea.</span></li>
+                                <li> Cold Coffee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                    <span> Fresh, refreshing, home-made cold coffee.</span></li>
+                                <li> Chocolate Milkshake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
+                                    <span> Classic chocolate milkshake.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Specials-->
+                <div id="specialsMenu" class="menuDivs" style="display:none;">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">
+                            <ul>
+                                <li> Soup of the day&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                    <span> Fresh, home-style soup.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="single_menus wow slideInRight" data-wow-duration="0.5s">
+                            <ul>
+                                <li> Lunch of the day&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;150
+                                    <span> A fresh, healthy, balanced lunch meal.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
