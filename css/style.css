@@ -14,7 +14,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	width: 100%;
 	font-size:15px;
-	font-family: 'Merriweather', serif;	
+	font-family: Roboto, sans-serif;	
 }
 
 
@@ -76,7 +76,7 @@ input[type="color"],
 .form-control {
 	border: 0px solid transparent;
 	font-size: 16px;
-	font-family: 'Merriweather', serif;	
+	font-family: Roboto, sans-serif;	
 	height: 45px;
 	border-bottom:1px solid #ddd;
 	background-color: rgba(255, 255, 255, 0);
@@ -91,7 +91,7 @@ input[type="color"],
 	box-shadow: none;
 }
 p {
-	font: normal 16px "Myriad Pro", arial, sans-serif;
+	font: normal 16px Roboto, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 { color: #767676;}
@@ -100,7 +100,7 @@ h1 {
 	font-size: 48px;
 	line-height: 50px;
 	font-weight: 600;
-	font-family: 'Merriweather', serif;
+	font-family: Roboto, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -108,7 +108,7 @@ h2 {
 	font-size: 40px;
 	line-height: 38px;
 	font-weight: 600;
-	font-family: 'Merriweather', serif;
+	font-family: Roboto, sans-serif;
 	margin: 0;
 }
 
@@ -116,7 +116,7 @@ h3 {
 	font-size: 30px;
 	line-height: 32px;
 	font-weight: 600;
-	font-family: "Myriad Pro" , sans-serif;
+	font-family: Roboto , sans-serif;
 	text-transform: uppercase;
 	margin: 0;
 }
@@ -126,7 +126,7 @@ h4 {
 	font-size: 24px;
 	line-height: 26px;
 	font-weight: 600;
-	font-family: "Myriad Pro" , sans-serif;
+	font-family: Roboto , sans-serif;
 	text-transform: uppercase;
 	}
 
@@ -134,7 +134,7 @@ h5 {
 	font-size: 20px;
 	line-height: 22px;
 	font-weight: 600;
-	font-family: "Myriad Pro" , sans-serif;
+	font-family: Roboto , sans-serif;
 	text-transform: uppercase;
 	margin: 0;
 	text-decoration: none;
@@ -144,7 +144,7 @@ h6 {
 	font-size: 18px;
 	line-height: 20px;
 	font-weight: 600;
-	font-family: "Myriad Pro" , sans-serif;
+	font-family: Roboto , sans-serif;
 	text-transform: uppercase;
 	margin: 0;
 	text-decoration: none;
@@ -229,7 +229,7 @@ a:hover{
 }
 
 .banner .scroll_btn:hover {
-	background: url(../images/scroll.gif) 50% 50% no-repeat #f3c30f;
+	background: url(../images/scroll.gif) 50% 50% no-repeat #1a2421;
 	opacity: .85;
 	-moz-opacity: .85;
 	-o-opacity: .85;
@@ -306,8 +306,8 @@ a:hover{
 }
 
 .single_banner_text p{
-	font-size:40px;
-	color:#3c3c3c;
+	font-size:36px;
+	color:#fff;
 }
 
 
@@ -397,7 +397,7 @@ a:hover{
 	font-size:30px;
 	font-weight:300;
 	text-align:center;
-	font-family: 'Merriweather', serif;
+	font-family: Roboto, sans-serif;
 }
 .signature_img{}
 
@@ -489,7 +489,6 @@ a:hover{
     padding: 40px 0px 20px 0px;
     overflow: hidden;
     width: 100%;
-    border-top: 1px solid #ddd;
     margin-top: 60px;
 }
 .single_footer p{
