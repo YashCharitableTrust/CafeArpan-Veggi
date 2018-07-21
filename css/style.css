@@ -556,5 +556,33 @@ a:hover{
 	margin-top: -7px;
 	margin-left: -6px;
 	text-decoration: none;
+.bottom35{
+    padding-bottom: 35px;
+}
 
+@media only screen and (min-width: 1280px) {
+    #coldBeveragesMenu
+    {
+        padding-left: 125px;
+    }
+
+    #breadStationMenu
+    {
+        padding-left: 150px;
+    }
+
+    #sidesMenu
+    {
+        padding-left: 170px;
+    }
+
+    #hotBeveragesMenu
+    {
+        padding-left: 250px;
+    }
+
+    #specialsMenu
+    {
+        padding-left: 235px;
+    }
 }
