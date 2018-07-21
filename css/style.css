@@ -412,6 +412,9 @@ a:hover{
 .menus_top_menu li{
 	display:inline-block;
 }
+.menus_top_menu li.active {
+	background-color: #9CCFC8;
+}
 .menus_top_menu a{
 	border:1px solid transparent;
 	color:#3c3c3c;
