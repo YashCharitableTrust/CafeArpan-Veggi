@@ -35,20 +35,20 @@
 
 .single_contact{
 	text-align:center;
-	color:#3c3c3c;
+	color:#fff;
 }
 .contact_form_area{
-	color:#3c3c3c;
+	color:#fff;
 }
 .contact_form_area h3{
 	text-align:center;
 	margin-bottom:0;
-	color:#3c3c3c;
+	color:#fff;
 }
 .form-control {
     border: 0px solid transparent;
     font-size: 16px;
-    font-family: 'Merriweather', serif;
+    font-family: Roboto, sans-serif;
     height: 45px;
     border-bottom: 1px solid #ddd;
     background-color: rgba(255, 255, 255, 0);
@@ -63,7 +63,7 @@
     margin-left: 10px;
 }
 .single_contact h5{
-	color:#3c3c3c;
+	color:#fff;
 }
 
 .single_footer{

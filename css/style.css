@@ -14,7 +14,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	width: 100%;
 	font-size:15px;
-	font-family: Roboto, sans-serif;	
+	font-family: Roboto, sans-serif;
 }
 
 
@@ -254,7 +254,7 @@ a:hover{
 	z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color: #fff;
+    background-color: #9CCFC8;
 	height:80px;
 	
 }
@@ -264,13 +264,14 @@ a:hover{
 .main_menu_bg .navbar-default {
     background-color: transparent; 
     border-color: transparent; 
+    color:#f1f1f1;
 	transition:.6s;
 }
 .container-fluid {
     margin-top: 20px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color:#3c3c3c;
+	color:#fff;
 }
 .main_menu_bg .navbar {
     margin-bottom:0px;
@@ -279,13 +280,14 @@ a:hover{
 	border:1px solid transparent;
 }
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-	color:#3c3c3c;
+	color:#fff;
 	background-color:transparent;
-	border:1px solid #666;
+	border:1px solid #fff;
 	text-transform:uppercase;
 }
 
 .main_menu_bg .navbar-nav>li>a{
+	color:#f1f1f1;
 	padding-top:10px;
 	padding-bottom:10px;
 }
@@ -414,6 +416,7 @@ a:hover{
 }
 .menus_top_menu li.active {
 	background-color: #9CCFC8;
+	color: #ffffff !important;
 }
 .menus_top_menu a{
 	border:1px solid transparent;
@@ -495,6 +498,7 @@ a:hover{
     margin-top: 60px;
 }
 .single_footer p{
+	color:#f1f1f1;
 	padding:5px;
 }
 .single_footer p i{
@@ -507,13 +511,13 @@ a:hover{
 }
 
 .single_footer .footer_socail a{
-	border:1px solid #666;
+	border:1px solid #f1f1f1;
 	padding:5px;
 	font-size:20px;
 	width:30px;
 	height:30px;
 	display:inline-block;
-	color:#666;
+	color:#f1f1f1;
 	line-height:20px;
 	text-align:center;
 }
