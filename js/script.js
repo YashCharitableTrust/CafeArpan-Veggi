@@ -76,6 +76,32 @@ $('.nav a').bind('click', function () {
 
 		
 		
+//Switching menu tabs
+    $('.menus_top_menu a').click(function(){
+        var closestLi = $(this).closest('li');
+        //Do nothing if the currently active tab has been clicked
+        if(closestLi.hasClass('active'))
+        {
+            return false;
+        }
+        //Otherwise, show and hide appropriate menu divs
+        else
+        {
+            //Remove and add 'active' from appropriate li's
+            $('.menus_top_menu li').removeClass('active');
+            closestLi.addClass('active');
+
+            //Hide all menu divs
+            $('.menuDivs').hide();
+
+            //Show the appropriate menu div
+            var menuToShowId = '#' + $(this).attr('data-menuId');
+            $(menuToShowId).show();
+            $(menuToShowId).find('.wow').scroll(); //Need to trigger scrolling to get this div to show
+            //Prevent event propagation
+            return false;
+        }
+    });
 });
 
 
