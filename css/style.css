@@ -261,7 +261,7 @@ a:hover{
 	margin-top:0px;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent; 
+    background-color: #9CCFC8; 
     border-color: transparent; 
     color:#f1f1f1;
 	transition:.6s;
@@ -296,7 +296,8 @@ a:hover{
 /* Banner section */
 
 .banner{
-	background:url(../images/bannerbg.jpg) no-repeat;
+	/*background:url(../images/bannerbg.jpg) no-repeat;*/
+	background: #9CCFC8;
 	position:relative;
 	background-size:cover;
 }
@@ -484,7 +485,8 @@ a:hover{
 
 /* footer section */
 .footer{
-	background:url(../images/footerbg.jpg) no-repeat center top;
+	/*background:url(../images/footerbg.jpg) no-repeat center top;*/
+	background:#9CCFC8;
 	background-size:cover;
 	padding-top:80px;
 }
