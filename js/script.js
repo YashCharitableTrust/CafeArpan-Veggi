@@ -62,7 +62,7 @@ return false;
 //<!-- ========== navbardown.js ========== -->
 //<!-- =============================================== -->
 
-$('.nav a').bind('click', function () {
+$('.nav a, .scrolldown a').bind('click', function () {
     $('html , body').stop().animate({
         scrollTop: $($(this).attr('href')).offset().top - 80
     }, 1500, 'easeInOutExpo');
