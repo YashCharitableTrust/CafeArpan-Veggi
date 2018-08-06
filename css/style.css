@@ -340,7 +340,9 @@ a:hover{
 }
 
 /* Special Section */
-.special{}
+.special{
+	background: #9CCFC8;
+}
 
 .main_special{
     padding-bottom: 100px;
