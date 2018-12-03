@@ -170,12 +170,16 @@
                 <div class="head_title text-center wow slideInDown" data-wow-duration="2s">
                     <h2>Menu</h2>
                     <!-- <div class="separetor"></div> -->
+                    <!-- Don't share the Menu PDF yet.
+                    <a href="./images/CafeArpan-Menu.pdf" target="_blank">View Menu</a>
+                  	-->
                 </div>
 
                 <div class="menus_top_menu text-center wow slideInDown" data-wow-duration="1.5s">
                     <ul>
                         <li class="active"><a href="" data-menuId="breadStationMenu">Breads</a></li>
                         <li><a href="" data-menuId="sidesMenu">Sides</a></li>
+                        <li><a href="" data-menuId="healthyBitesMenu">Healthy</a></li>
                         <li><a href="" data-menuId="hotBeveragesMenu">Hot</a></li>
                         <li><a href="" data-menuId="coldBeveragesMenu">Cold</a></li>
                         <li><a href="" data-menuId="specialsMenu">Specials</a></li>
@@ -187,11 +191,15 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">
                             <ul>
-                                <li> Videshi Vada Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
+                                <li> Videshi Vada Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
                                     <span> Burger with a crunchy veggie patty and soft bun.</span></li>
-                                <li> Mushroom and Cheese Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
+                                <li> Spinach Corn & Cheese Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
+                                    <span> Soft pav filled with spinach, corn and cheese. Served toasted.</span></li>
+                                <li> Mushroom and Cheese Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
                                     <span> Soft pav filled with mushroom and cheese. Served toasted.</span></li>
-                                <li> Airport Wala Special Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
+                                <li> Raste Wala Sada Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
+                                    <span> Mumbai special sandwich, just as the sandwichwala prepares it!</span></li>
+                                <li> Airport Wala Special Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
                                     <span> Our special chilli cheese toast sandwich, minus the crazy airport prices.</span>
                                 </li>
                             </ul>
@@ -200,10 +208,15 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="single_menus wow slideInRight" data-wow-duration="0.5s">
                             <ul>
-                                <li> Spinach Corn & Cheese Pav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
-                                    <span> Soft pav filled with spinach, corn and cheese. Served toasted.</span></li>
-                                <li> Raste Wala Sada Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
-                                    <span> Mumbai special sandwich, just as the sandwichwala prepares it!</span></li>
+                                <li> Bombay Grill Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                	<span> The famous grill sandwich from the streets of Mumbai.</span></li>
+                                <li> Italiano Toastizza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
+                                	<span>Fresh & delicious mini pizzas made with vegetables & cheese on a brown toast</span></li>
+                                <li> Cheesy Mushroom Toastizza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
+                                	<span>Fresh & delicious mini pizzas made with mushroom & cheese on a brown toast</span></li>
+                                <li> Popeye’s Delight Toastizza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
+                                	<span>Fresh & delicious mini pizzas made with spinach, corn & cheese on a brown toast</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -212,33 +225,66 @@
                 <!--Sides-->
                 <div id="sidesMenu" class="menuDivs" style="display:none;">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">
+                        <!-- <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">-->
+                        <div class="single_menus">
                             <ul>
-                                <li> Exotic Kachumber Salad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
-                                    <span> Kachumber salad's fancier version (with lettuce, bell peppers et al).</span>
-                                </li>
-                                <li> Original Fries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
-                                    <span> Classic French fries.</span></li>
+                                <li> Original Fries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
+                                   <span> Classic French fries.</span></li>
+                                <li> Masala Fries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
+                                  <span> Classic French fries with some desi spice.</span></li>
+                                <li> Cheesy Fries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                  <span> Classic French fries with melted cheese.</span></li>
                                 <li> Garlic Bread with Cheese&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
-                                    <span> Because its easy to prepare and so tasty!</span></li>
-                                <li> Cheesy Corn Balls&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
-                                    <span> Cheesy American corn fritters.</span></li>
-                                <li> Cheesy Nachos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;140
-                                    <span> Fresh, crispy nachos with our home-made cheese sauce.</span></li>
+                                  <span> Because its easy to prepare and so tasty!</span></li>
+                                <li> Cheesy Corn Balls&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
+                                  <span> Cheesy American corn fritters.</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="single_menus wow slideInRight" data-wow-duration="0.5s">
+                        <!--<div class="single_menus wow slideInRight" data-wow-duration="0.5s">-->
+                        <div class="single_menus">
                             <ul>
+                                <li> Jalapeno Poppers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
+                                	<span>Jalapeno + Cheese + Fried = Happiness.</span></li>
+                                <li> Cheesy Nachos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;140
+                                    <span> Fresh, crispy nachos with our home-made cheese sauce.</span></li>
+                                <li> Southwest Sev Puri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                	<span>Our favorite sev puri with a tex mex twist!</span></li>
+                                <li> Mexican Bhel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                	<span>Bhel puri straight from Mexico!</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Healthy Bites-->
+                <div id="healthyBitesMenu" class="menuDivs" style="display:none;">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <!-- <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">-->
+                        <div class="single_menus">
+                            <ul>
+                                <li> Exotic Kachumber Salad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90
+                                	<span>Kachumber salad’s fancier version (with lettuce, bell peppers et al)</span></li>
                                 <li> Special Arpan Salad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
-                                    <span> Fresh veggies tossed in our special Arpan dressing.</span></li>
-                                <li> Masala Fries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
-                                    <span> Classic French fries with some desi spice.</span></li>
-                                <li> Falafel Tikkies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
-                                    <span> Traditional falafel nuggets served with a delicious dip.</span></li>
-                                <li> Jalapeno Poppers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
-                                    <span> Jalapeno + cheese + fried = happiness!</span></li>
+                                	<span>Fresh veggies and penne pasta tossed with our special Arpan dressing</span></li>
+                                <li> Falafel Salad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;140
+                                	<span>Fresh veggies and falafel nuggets tossed with a hummus dressing</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <!--<div class="single_menus wow slideInRight" data-wow-duration="0.5s">-->
+                        <div class="single_menus">
+                            <ul>
+                                <li> Hummus & Pita Bread&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;140
+                                	<span>Fresh home-made hummus served with a warm pita bread</span></li>
+                                <li> Falafel Tikkis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
+                                	<span> Traditional falafel nuggets served with a delicious dip</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -247,20 +293,26 @@
                 <!--Hot Beverages-->
                 <div id="hotBeveragesMenu" class="menuDivs" style="display:none;">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">
+                        <!-- <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">-->
+                        <div class="single_menus">
                             <ul>
-                                <li> Garam Chai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50
-                                    <span> Chai cutting.</span></li>
-                                <li> Hot Chocolate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
-                                    <span> Garma garam chocolate!</span></li>
+                                <li> Garam Chai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50
+                                    <span> Chai Cutting - Masala or Adrak</span></li>
+                                <li> Filter Coffee/Cafe Americano&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
+                                    <span> South Indian coffee/Black Coffee</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="single_menus wow slideInRight" data-wow-duration="0.5s">
+                        <!--<div class="single_menus wow slideInRight" data-wow-duration="0.5s">-->
+                        <div class="single_menus">
                             <ul>
-                                <li> Filter Coffee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50
-                                    <span> South Indian coffee.</span></li>
+                                <li> Green Tea&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
+                                    <span> Relaxing green tea</span></li>
+                                <li> Hot Chocolate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
+                                    <span> Garma garam chocolate!</span>
+                                 </li>
                             </ul>
                         </div>
                     </div>
@@ -269,34 +321,34 @@
                 <!--Cold Beverages-->
                 <div id="coldBeveragesMenu" class="menuDivs" style="display:none;">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">
+                        <!-- <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">-->
+                        <div class="single_menus">
                             <ul>
-                                <li> Nimbu Pani&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50
-                                    <span> Fresh lime water (sweet or salty or both or none... however you want it!).</span>
-                                </li>
-                                <li> Lemon Iced Chai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
+                                <li> Nimbu Pani&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
+                                    <span> Fresh lime water (sweet or salty or both or none... however you want it!).</span></li>
+                                <li> Nimbu Soda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
+                                    <span> Fresh lime soda (sweet or salty or both or none... however you want it!).</span></li>
+                                <li> Lemon Iced Chai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
                                     <span> Refreshing iced tea.</span></li>
-                                <li> Watermelon Juice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80
-                                    <span> Fresh watermelon juice - no sugar, no ice.</span></li>
-                                <li> Banana Milkshake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
-                                    <span> Fresh banana milkshake</span></li>
-                                <li> Strawberry Milkshake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;130
-                                    <span> Delicious strawberry milkshake.</span></li>
+                                <li> Peach Iced Chai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70
+                                    <span> Refreshing iced tea.</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="single_menus wow slideInRight" data-wow-duration="0.5s">
+                        <!--<div class="single_menus wow slideInRight" data-wow-duration="0.5s">-->
+                        <div class="single_menus">
                             <ul>
-                                <li> Nimbu Soda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
-                                    <span> Fresh lime soda (sweet or salty or both or none... however you want it!).</span>
-                                </li>
-                                <li> Peach Iced Chai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60
-                                    <span> Refreshing iced tea.</span></li>
-                                <li> Cold Coffee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                <li> Watermelon Juice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                    <span> Fresh watermelon juice - no sugar, no ice.</span></li>
+                                <li> Cold Coffee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
                                     <span> Fresh, refreshing, home-made cold coffee.</span></li>
                                 <li> Chocolate Milkshake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120
                                     <span> Classic chocolate milkshake.</span></li>
+                                <li> Strawberry Milkshake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;130
+                                    <span> Delicious strawberry milkshake.</span>
+                                 </li>
                             </ul>
                         </div>
                     </div>
@@ -305,18 +357,20 @@
                 <!--Specials-->
                 <div id="specialsMenu" class="menuDivs" style="display:none;">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">
+                        <!-- <div class="single_menus wow slideInLeft" data-wow-duration="0.5s">-->
+                        <div class="single_menus">
                             <ul>
-                                <li> Soup of the day&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
+                                <li> Soup of the day&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
                                     <span> Fresh, home-style soup.</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="single_menus wow slideInRight" data-wow-duration="0.5s">
+                        <!--<div class="single_menus wow slideInRight" data-wow-duration="0.5s">-->
+                        <div class="single_menus">
                             <ul>
-                                <li> Lunch of the day&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;150
-                                    <span> A fresh, healthy, balanced lunch meal.</span></li>
+                                <li> Meal of the day&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;170
+                                    <span> A fresh, healthy, balanced meal.</span></li>
                             </ul>
                         </div>
                     </div>
@@ -423,7 +477,7 @@
 				<div class="copyright_text_area">
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="single_footer text-left wow zoomIn" data-wow-duration="2s">
-							<p>Made with <i class="fa fa-heart"></i> in Mumbai, India. 2018</p>
+							<p>Made with <i class="fa fa-heart"></i> in Mumbai, India.</p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12">
